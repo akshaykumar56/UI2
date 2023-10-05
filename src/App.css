@@ -1,0 +1,92 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@font-face {
+  font-family: "BDSuper";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./components//Home/fonts/BDSupperBold.ttf") format("truetype");
+    font-weight:normal;
+}
+
+
+
+
+
+/* .animation {
+  opacity: 0;
+  transform: translateX(-300px);
+  transition: all 0.7s ease-out;
+  transition-delay: 0.4s;
+
+}
+
+.animation2 {
+  opacity: 0;
+  transform: translateX(300px);
+  transition: all 0.7s ease-out;
+  transition-delay: 0.4s;
+
+}
+.scroll-animation {
+  opacity: 1;
+  transform: translateX(0);
+} */
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+*{
+  /* border: 2px solid red; */
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media(prefers-reduced-motion){
+  .animation{
+    transition:none;
+  }
+}

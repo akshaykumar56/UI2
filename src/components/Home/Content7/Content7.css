@@ -1,0 +1,59 @@
+.card-body{
+  background: linear-gradient(180deg, grey, black);
+}
+  
+  .projects{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+  }
+  .curated{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .tiles{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center
+  }
+  .content7{
+    margin:0px 100px;
+  }
+  .react-multiple-carousel__arrow--left {
+  /* left:50px;
+  top:520px; */
+  background: #4FC7EC;
+  border-radius: 0;
+  }
+
+  .react-multiple-carousel__arrow--right {
+    /* right:1150px;
+    top:520px; */
+    background: #65C891;
+  border-radius: 0;
+    }
+  @media only screen and (max-width:900px) {
+    .tiles{
+      flex-direction:column;
+      
+    }
+  
+    .projects{
+      display:flex;
+      flex-direction:column;
+    }
+  
+    .curated{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .content7{
+      margin:40px 0px;
+    }
+    
+  }
+  
+  
+  

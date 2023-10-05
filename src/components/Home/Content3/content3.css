@@ -1,0 +1,54 @@
+.gradient{
+   background: -webkit-linear-gradient(#65C891,#3CCDE9);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
+.text3{
+   font-size: 40px;
+}
+
+.content3{
+   display:flex;
+   flex-direction: row;
+   margin:112px 100px 0px 100px;
+   height:545px;
+}
+
+.image3{
+   height:auto;
+   width:40%;
+}
+
+.right{
+   height:auto;
+   width:60%;
+}
+
+@media only screen and (max-width:900px) {
+   .content3{
+      flex-direction: column;
+      margin:100px 30px 0px 30px;
+      text-align: justify;
+      height: 400px;
+   } 
+   .image3{
+      height:auto;
+      width:100%;
+      display:none;
+   }
+   
+   .right{
+      height:auto;
+      width:100%;
+   }
+
+   .gradient{
+      font-size:22px;
+   }
+
+   .text3{
+      font-size:22px;
+   }
+   
+}

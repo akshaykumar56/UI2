@@ -1,0 +1,133 @@
+.heading {
+  position: absolute;
+  bottom: 30px;
+  padding: 0px 30px;
+  font-size: 32px;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.Service-Project-Heading {
+  font-size: 50px;
+}
+
+.Service-Project-Text {
+  font-size: 20px;
+}
+
+.Service-Project-Button {
+  font-size: 20px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.images-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.Box {
+  width: 33%;
+  margin: 0px 20px 20px 0px;
+}
+
+.Main-Service {
+  margin: 0px 50px;
+}
+
+.Cards-Service {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-services {
+  font-weight: 400;
+  background: -webkit-linear-gradient(180deg, #363636, #4FC7EC, #65C891);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  position: absolute;
+  bottom: 70px;
+  padding: 0px 30px;
+  color: white;
+  font-size: 15px;
+  transition: opacity 1s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.Box:hover .heading {
+  bottom: 200px;
+}
+
+.Box:hover .text {
+  opacity: 1;
+  height: auto;
+}
+
+.Service-Project {
+  width: 67%;
+  padding: 20px 50px 30px 50px;
+}
+
+.bar {
+  width: 100%;
+  padding: 25px 0;
+  color: white;
+  font-family: Gelasio;
+  font-size: 18px;
+}
+
+.bar_content {
+  display: block; /* Important to give the content a width */
+  width: 100%;
+  transform: translateX(100%); /* Animation start out of the screen */
+  /* Add the animation */
+  animation: move 30s linear infinite;
+}
+
+/* Create the animation */
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Main-Service {
+    margin: 50px 0px;
+  }
+  .Cards-Service {
+    display: flex;
+    flex-direction: column;
+  }
+  .Box {
+    width: 100%;
+  }
+  .images-2 {
+    flex-direction: column;
+  }
+  .Service-Project {
+    width: 100%;
+    padding: 20px 20px 30px 20px;
+  }
+  .Service-Project-Heading {
+    font-size: 30px;
+  }
+  .Service-Project-Text {
+    font-size: 15px;
+  }
+  .Service-Project-Button {
+    font-size: 15px;
+    width: 80%;
+  }
+  .Box {
+    margin: 0px 0px 20px 0px;
+  }
+}/*# sourceMappingURL=Service.css.map */

@@ -1,0 +1,124 @@
+.main-Projects{
+    margin: 0px 50px;
+}
+
+.react-multiple-carousel__arrow--right{
+    right: 16px !important;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the active button */
+.button.active {
+    background-color: #ff5733; /* Change this to the desired active color */
+}
+
+.react-multiple-carousel__arrow--left{
+    left: 0px;
+}
+.Our-Projects{
+    font-weight: 400;
+    background: -webkit-linear-gradient(180deg,#363636, #4FC7EC,#65C891);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Our-Projects-Text{
+    font-size: 26px;
+}
+
+.Projects{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main-Projects-Inner{
+    margin:20px 100px;
+}
+
+
+
+.Projects-Button-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.Projects-Button-Box button{
+    width:250px;
+    margin:0px 10px;
+    border-radius: 20px;
+    background-color: #252331;
+    height:50px;
+    color: white;
+    font-size: 15px;
+}
+
+
+.Project-Box:hover .Project-heading{
+    bottom:220px;
+}
+.Project-Box:hover .Project-text{
+    opacity: 1;
+    height: auto;
+}
+
+.Project-heading{
+    position: absolute;
+    bottom:30px;
+    padding:0px 30px;
+    font-size: 28px;
+    color:white;
+    transition: all .5s ease-in-out;
+
+}
+
+.Project-text{
+    position: absolute;
+    bottom:10px;
+    padding:0px 30px;
+    color:white;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+
+.react-multiple-carousel__arrow--left{
+    left: 0px;
+}
+.react-multiple-carousel__arrow--right{
+    right: 16px;
+}
+
+@media only screen and (max-width:1100px) {
+    .main-Projects{
+        margin: 0px 10px;
+    }
+    .Projects-Button-Box{
+        flex-direction: column;
+    }
+    .Projects-Button-Box button{
+        margin:10px 0px;  
+    }
+  }
+
+
+  @media only screen and (max-width:800px) {
+    .main-Projects-Inner{
+        margin:20px 10px;
+    }
+    .Our-Projects-Text{
+        font-size: 20px;
+    }
+  }

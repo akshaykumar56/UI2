@@ -1,0 +1,154 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px 100px;
+}
+.contact-input1{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+
+.contact-input1-input{
+  width: 50%;
+}
+.Contact-Box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-Box-1{
+    width: 70%;
+    
+}
+
+.Contact-Box-2{
+    width: 30%;
+    padding:10px 50px;
+}
+
+.Contact-Button .button{
+    padding:10px 10px;
+    width:180px;
+    color:black;
+    border:2px solid black;
+    background-color:transparent;
+    border-radius: 5px;
+    margin:10px 10px 0px 0px;
+    padding:0;
+
+}
+
+.Contact-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label:checked {
+    background-color: blue;
+ } 
+.Contact-Heading-1{
+    font-size:90px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    font-weight:800;
+}
+
+.Contact-Heading-2{
+    font-size:90px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    font-weight:800;
+}
+
+
+.button {
+    margin: 0 10px 0 0;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button label,
+  .button input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .button input[type="radio"] {
+    opacity: 0.011;
+  }
+  
+  .button input[type="radio"]:checked + label {
+    background: black;
+    color:white;
+    border-radius: 4px;
+  }
+  
+  .button label {
+    cursor: pointer;
+    z-index: 90;
+    line-height: 1.8em;
+  }
+
+@media only screen and (max-width:900px) {
+    .Contact-Heading-1{
+        font-size:40px;
+        justify-content: center;
+
+    }
+    
+    .Contact-Heading-2{
+        font-size:40px;
+        justify-content: center;
+    }
+    .Contact-Box{
+        flex-direction: column;
+    } 
+
+    .Contact-Box-1{
+        width: 100%;
+        
+    }
+    
+    .Contact-Box-2{
+        width: 100%;
+        padding:0;
+        margin: 50px;
+    }
+
+    .Contact{
+        margin:20px 20px;
+    }
+
+    .contact-input1{
+        flex-direction:column;
+    }
+    
+    .contact-input1-input{
+      width: 100%;
+    }
+    .Contact-Box-11{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
