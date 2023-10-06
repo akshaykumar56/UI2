@@ -1,0 +1,27 @@
+.Privacy{
+    margin:50px 100px;
+}
+
+.Interpretetion{
+    margin:30px 0px;
+}
+
+.collection{
+    margin:10px 0px 70px 0px;
+}
+
+.Privacy p{
+    font-size: 18px;
+}
+
+.Privacy h2,h3,h4{
+    font-family: BDSuper;
+}
+
+
+@media only screen and (max-width:900px) {
+    .Privacy{
+        margin:50px 20px;
+    }
+    
+  }

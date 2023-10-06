@@ -20,6 +20,8 @@ import IGMC from './components/ProjectPages/IGMC'
 import BJP from './components/ProjectPages/BJP'
 import PWD from './components/ProjectPages/PWD'
 import RPL from './components/ProjectPages/RPL'
+
+import Privacy from './components/Privacy/Privacy'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
 
@@ -46,6 +48,7 @@ function App() {
       <Route exact path="/bjp" element={<BJP/>}/>
       <Route exact path="/pwd" element={<PWD/>}/>
       <Route exact path="/rpl" element={<RPL/>}/>
+      <Route exact path="/privacy" element={<Privacy/>}/>
        </Routes>
        <Footer/>
       </BrowserRouter>

@@ -63,8 +63,8 @@ function Service() {
 
 
         </div>
-        <div className='images-2'>
-            <div className='Box' style={{backgroundImage: `url(${Img4})`,backgroundSize:'cover',height:'370px',borderRadius:'15px',position:'relative'}}>
+        <div className='images-2' >
+            <div className='Box1' style={{backgroundImage: `url(${Img4})`,backgroundSize:'cover',height:'370px',borderRadius:'15px',position:'relative'}}>
             <div className='heading'>
             Social Media Management
             </div>

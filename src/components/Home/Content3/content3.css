@@ -44,11 +44,11 @@
    }
 
    .gradient{
-      font-size:22px;
+      font-size:22px !important;
    }
 
    .text3{
-      font-size:22px;
+      font-size:22px !important;
    }
    
 }

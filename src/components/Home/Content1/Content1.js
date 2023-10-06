@@ -2,6 +2,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './content1.css';
 import {Link} from 'react-router-dom'
+import Img1 from './Img1.svg'
+import Img2 from './Img2.svg'
+import Img3 from './Img3.svg'
+import Img4 from './Img4.svg'
 function BasicExample() {
   return (
     <>
@@ -16,7 +20,23 @@ function BasicExample() {
         </div>
         </div>
 
-        <div className='image1' style={{display:'flex',alignItems:'center',justifyContent:'center',position:'relative'}}><div className='image11'><div className='block block1' style={{height:'205.25px',width:'205.25px'}}></div><div className='block block2' style={{height:'242.41px',width:'267.75px'}}></div><div className='block block3' style={{height:'247.48px',width:'299px',boxShadow:'0px 20px 70px 10px #65C891'}}></div></div></div>
+      <div className='image1' style={{display:'flex',alignItems:'center',justifyContent:'center',position:'relative'}}>
+      <div id="mainDiv">
+    <div id="boxDiv">
+        <div id="front" style={{backgroundImage:`url(${Img1})`}}></div>
+        <div id="back" style={{backgroundImage:`url(${Img2})`}}></div>
+        <div id="left" style={{backgroundImage:`url(${Img3})`}}></div>
+        <div id="right" style={{backgroundImage:`url(${Img4})`}}></div>
+        <div id="top" style={{backgroundImage:`url(${Img4})`}}></div>
+        <div id="bottom" style={{backgroundImage:`url(${Img4})`}}></div>
+        
+        <div className="shadow"></div>
+    </div>
+</div>
+<div style={{height:'100px'}}>
+  </div>    
+
+      </div>
     </div>
     </>
   );

@@ -10,7 +10,7 @@ import Logo5 from './PwdLogo.jpg'
 function BasicExample() {
   return (
     <>
-    <div className='content2' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+    <div className='content2' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',margin:'100px 0px'}}>
         <div className='content21'>
         <h2 style={{fontFamily:'lato',fontWeight:'700',fontSize:'32px'}}>Most Notable Clients 👀</h2>
         </div>
