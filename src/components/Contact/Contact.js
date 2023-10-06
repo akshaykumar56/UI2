@@ -82,7 +82,7 @@ function Contact() {
  </div>
  <div className='Contact-Box-2'>
     <div style={{fontFamily:'BDSuper'}}>Tell us about your vision: which challenges are you facing? What are your goals and expectations? What would success look like and how much are you planning to get there?</div>
-    <div style={{display:'flex',flexDirection:'row',justifyContent:'flex-start',alignItems:'center'}}><div><a href='https://www.facebook.com/garagesilicon'><img className='Image1' src={Img} alt='img1' /></a></div><div><a href='https://www.instagram.com/silicongarage/?img_index=1'><img className='Image2' src={Img2} alt='img1' /></a></div><div style={{margin:'0px 3px'}}><a href='https://www.fiverr.com/sillicongarage'><img className='Image2' src={Img3} alt='img1' /></a></div></div>
+    <div style={{display:'flex',flexDirection:'row',justifyContent:'flex-start',alignItems:'center'}}><div><a href='https://www.facebook.com/garagesilicon' target='_blank' rel="noreferrer"><img className='Image1' src={Img} alt='img1' /></a></div><div><a href='https://www.instagram.com/silicongarage/?img_index=1' target='_blank' rel="noreferrer"><img className='Image2' src={Img2} alt='img1' /></a></div><div style={{margin:'0px 3px'}}><a href='https://www.fiverr.com/sillicongarage' target='_blank' rel="noreferrer"><img className='Image2' src={Img3} alt='img1' /></a></div></div>
  </div>
   </div>
   </div>
