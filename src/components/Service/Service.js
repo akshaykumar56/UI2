@@ -81,7 +81,7 @@ function Service() {
                 Transform your vision into reality with our cutting-edge services. Whether it's software development, design, or innovation, ping us, and let's bring your ideas to life!
                 </div>
 
-            <Link to='/contact' style={{color:'white',textDecoration:'none'}}><div className='Service-Project-Button' style={{margin:'20px 0px',borderRadius:"20px",padding:'10px 20px',backgroundColor:'#65C891'}}>
+            <Link onClick={()=>{window.scroll(0,0)}}to='/contact' style={{color:'white',textDecoration:'none'}}><div className='Service-Project-Button' style={{margin:'20px 0px',borderRadius:"20px",padding:'10px 20px',backgroundColor:'#65C891'}}>
                Request a Project
                 </div></Link>
             </div>

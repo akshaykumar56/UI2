@@ -14,8 +14,8 @@ function BasicExample() {
         <div className='text11'><div className='text111' >Transforming your ideas into digital reality</div>
         <div className='text11' style={{margin:'10px 0px',fontFamily:'lato'}}>We specialize in crafting tailored apps and websites that cater to your unique business needs.</div>
         <div className='button-home' style={{display:'flex',flexDirection:'row',width:'600px',justifyContent:'flex-start'}}>
-            <Link to='/services' style={{color:'white',textDecoration:'none'}}><div className='button1-home' style={{display:'flex',justifyContent:'center',alignItems:'center',height:'60px',borderRadius:'10px',backgroundColor:'#65C891',margin:'30px 30px 0px 0px',fontFamily: 'Montserrat'}}>Services</div></Link>
-            <Link to='/projects' style={{color:'white',textDecoration:'none'}}><div className='button1-home' style={{display:'flex',justifyContent:'center',alignItems:'center',height:'60px',borderRadius:'10px',backgroundColor:'#3CCDE9',margin:'30px 0px 0px 0px',fontFamily: 'Montserrat'}}>Projects</div></Link>
+            <Link onClick={()=>{window.scroll(0,0)}}to='/services' style={{color:'white',textDecoration:'none'}}><div className='button1-home' style={{display:'flex',justifyContent:'center',alignItems:'center',height:'60px',borderRadius:'10px',backgroundColor:'#65C891',margin:'30px 30px 0px 0px',fontFamily: 'Montserrat'}}>Services</div></Link>
+            <Link onClick={()=>{window.scroll(0,0)}}to='/projects' style={{color:'white',textDecoration:'none'}}><div className='button1-home' style={{display:'flex',justifyContent:'center',alignItems:'center',height:'60px',borderRadius:'10px',backgroundColor:'#3CCDE9',margin:'30px 0px 0px 0px',fontFamily: 'Montserrat'}}>Projects</div></Link>
             </div> 
         </div>
         </div>
