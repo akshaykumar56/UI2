@@ -69,6 +69,13 @@ align-items: center;
     opacity: 1;
     height: auto;
 }
+.Box1:hover .heading{
+  bottom:200px;
+}
+.Box1:hover .text{
+  opacity: 1;
+  height: auto;
+}
 
 .Service-Project{
   width: 65%;
@@ -178,6 +185,9 @@ align-items: center;
     .Box{
       width:100%;
     }
+    .Box1{
+      width:100%;
+    }
     .images-2{flex-direction:column};
     .Service-Project{
       width: 100%;
@@ -197,6 +207,9 @@ align-items: center;
       width:80%;
     }
     .Box{
+      margin:0px 0px 20px 0px;
+    }
+    .Box1{
       margin:0px 0px 20px 0px;
     }
     .images-2{width:100%};
