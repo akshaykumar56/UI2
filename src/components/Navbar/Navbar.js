@@ -6,7 +6,7 @@ function BasicExample() {
   return (
     <div className='Navbar' style={{backgroundColor:'white'}}>
       <div className='container1' style={{width:'100%'}}>
-       <div ><Link to='/home'><img src={Img} alt='img' className='logo'/></Link></div>
+       <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Link to='/home'><img src={Img} alt='img' className='logo'/></Link></div>
       <div className='Links'>
       <NavLink className='nav-links1' to="/home" style={({ isActive }) => ({ color: isActive ? 'red' : 'black' })}>Home</NavLink>
       <NavLink className='nav-links1' to="/services" style={({ isActive }) => ({ color: isActive ? 'red' : 'black' })}>Services</NavLink>
