@@ -194,7 +194,7 @@ case "3":   return <Carousel key={3} className='Social-Media-Management' respons
                 </div>
         </div>
         <div className='Project-Box' style={{width:'300px',height:'450px',margin:'10px 50px',backgroundImage:`url(${Img19})`,backgroundSize:'cover',position:'relative'}}>
-        <div className='Project-heading' key={33}>
+        <div className='Project-heading' key={33} style={{fontFamily:'BDSuper'}}>
                  RPL Canada
                 </div>
                 <div className='Project-text' style={{fontFamily: 'Montserrat'}}>

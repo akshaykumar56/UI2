@@ -117,7 +117,8 @@
     height:200px;
     background: rgba(0,0,0,0.5);
     box-shadow: 0 0 50px 50px rgba(0,0,0,0.5);
-    opacity: 0.55 !important;
+    border-radius:20px;
+    opacity: 0.35 !important;
     transform: rotateX(90deg) translateZ(-190px) rotateY(180deg) translateX(0px);
 
 }

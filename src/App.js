@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import Service from './components/Service/Service'
 import Project from './components/Project/Project'
 import About from './components/About/About'
+import FooterDetails from './components/FooterDetail/FooterDetail'
 import Footer from './components/Footer/Footer'
 import Contact from './components/Contact/Contact'
 
@@ -50,6 +51,7 @@ function App() {
       <Route exact path="/rpl" element={<RPL/>}/>
       <Route exact path="/privacy" element={<Privacy/>}/>
        </Routes>
+       <FooterDetails/>
        <Footer/>
       </BrowserRouter>
     </>
