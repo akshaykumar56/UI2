@@ -1,5 +1,6 @@
 import React from 'react';
 import './Privacy.css'
+import {Link} from 'react-router-dom';
 function BasicExample() {
   return (
     <>
@@ -185,7 +186,7 @@ function BasicExample() {
 <h2 style={{fontFamily:'BDSuper'}}>Contact Us</h2>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
-<li>By visiting this page on our website: <a href="https://silicongarage.in/contact" rel="noreferrer" target="_blank">https://silicongarage.in/contact</a></li>
+<li>By visiting this page on our website: <Link onClick={()=>{window.scroll(0,0)}} to="/contact" style={{textDecoration:'none'}}>Contact Us</Link></li>
 </ul>
 </div>
     </>

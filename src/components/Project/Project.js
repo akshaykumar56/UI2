@@ -190,7 +190,7 @@ case "3":   return <Carousel key={3} className='Social-Media-Management' respons
                 </div>
                 <div className='Project-text' style={{fontFamily: 'Montserrat'}}>
                 Boosted HPPWD's social presence, reaching 2.8k organic Facebook followers, delivering vital info during the 2023 Himachal Floods.
-                <Link onClick={()=>{window.scroll(0,0)}}to='/pwd' style={{textDecoration:'none'}}><div style={{margin:'20px',fontFamily:'BDSuper',color:'red',fontSize:'18px'}}>View</div></Link>
+                <Link onClick={()=>{window.scroll(0,0)}} to='/pwd' style={{textDecoration:'none'}}><div style={{margin:'20px',fontFamily:'BDSuper',color:'red',fontSize:'18px'}}>View</div></Link>
                 </div>
         </div>
         <div className='Project-Box' style={{width:'300px',height:'450px',margin:'10px 50px',backgroundImage:`url(${Img19})`,backgroundSize:'cover',position:'relative'}}>
